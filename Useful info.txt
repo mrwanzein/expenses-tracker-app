@@ -1,0 +1,7 @@
+Babel auto compiling with react command (must have these two dependcencies? babel-preset-env and 
+babel-preset-react): 
+
+which file to compile ----> babel src/app.js where to compile ----> --out-file=public/scripts/app.js dependencies ----> --presets=env,react --watch (auto compile file changes)
+
+babel src/app.js --out-file=public/scripts/app.js --presets=env,react --watch
+__________________________________________________________________________________________________________________________________________
