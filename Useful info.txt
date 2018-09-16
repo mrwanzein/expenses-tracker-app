@@ -5,3 +5,5 @@ which file to compile ----> babel src/app.js where to compile ----> --out-file=p
 
 babel src/app.js --out-file=public/scripts/app.js --presets=env,react --watch
 __________________________________________________________________________________________________________________________________________
+
+Bash command for generating an ssh key: ssh-keygen -t rsa -b 4096 -C "mrwanzein@outlook.com"            -t = type -b = bytes
